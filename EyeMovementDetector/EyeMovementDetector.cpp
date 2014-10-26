@@ -167,7 +167,7 @@ void detectSaccades(double* arr, double* second, double** output, int mode)
 
 				double magnitude = sqrt(max*max + secondMax*secondMax);
 
-				std::cerr << "Index," << i << ",Angle," << angle << ",Magnitude," << magnitude << std::endl;
+				std::cerr << "Time," << i*dt << ",Angle," << angle << ",Magnitude," << magnitude << std::endl;
 				output[i-1][0] = angle;
 				output[i-1][1] = magnitude;
 			}

@@ -10,9 +10,8 @@ data = csvread(callname,1,0);
 %data = csvread("/home/kevin/LabHack/S2_P1_R2_data.csv",1,0);
 %data = csvread("/home/kevin/LabHack/filtered_output.csv",1,0);
 
-
 % column 2 is vertical
-% column 2 is horizontal
+% column 3 is horizontal
 
 disp("done loading data")
 
